@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Apps</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <main class="main__container">
+      <h1 class="main__container-heading">Contact Apps</h1>
+
+      <section class="add__contact__container">
+        <h2 class="main__container-subheading">Add New Contact</h2>
+        <div class="add__contact__container-input">
+          <input
+            type="text"
+            id="nameInput"
+            placeholder="Name"
+            class="main__container-input"
+          />
+          <input
+            type="text"
+            id="emailInput"
+            placeholder="Email"
+            class="main__container-input"
+          />
+          <button id="addButton" class="main__container-button">Add</button>
+        </div>
+      </section>
+
+      <section class="contact_list_container">
+        <h2 class="main__container-subheading">Contact List</h2>
+        <div class="row" id="contact_list"></div>
+      </section>
+    </main>
+  </body>
+</html>
